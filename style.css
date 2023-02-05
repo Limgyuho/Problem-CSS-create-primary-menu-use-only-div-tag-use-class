@@ -1,0 +1,22 @@
+.menu-box {
+  text-align:center;
+}
+.menu-box > .menu {
+  background-color:#dfdfdf;
+  display:inline-block;
+  border-radius:5px;
+  padding:0 10px;
+}
+
+.menu-box > .menu > .menu-item {
+  display:inline-block;
+}
+
+.menu-box > .menu > .menu-item > .menu-item-text {
+  padding:20px;
+  cursor:pointer;
+}
+.menu-box > .menu > .menu-item:hover > .menu-item-text {
+  background-color:black;
+  color:white;
+}
